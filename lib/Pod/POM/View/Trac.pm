@@ -1,6 +1,6 @@
 package Pod::POM::View::Trac;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 our $INDENT = 4;
 
 use strict;

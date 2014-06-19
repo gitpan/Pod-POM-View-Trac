@@ -16,9 +16,10 @@ name: Pod-POM-View-Trac
 provides:
   Pod::POM::View::Trac:
     file: lib/Pod/POM/View/Trac.pm
-    version: 0.01
+    version: 0.02
 requires:
+  Pod::POM: 0
   perl: 5.006
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+version: 0.02

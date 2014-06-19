@@ -15,7 +15,8 @@ my $builder = Module::Build->new(
         'Test::More' => 0,
     },
     requires => {
-        'perl' => 5.006,
+        'perl'     => 5.006,
+        'Pod::POM' => 0.0,
     },
     add_to_cleanup      => [ 'Pod-POM-View-Trac-*' ],
     create_makefile_pl => 'traditional',

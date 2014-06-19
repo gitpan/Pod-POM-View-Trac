@@ -6,6 +6,7 @@ WriteMakefile
   'NAME' => 'Pod::POM::View::Trac',
   'VERSION_FROM' => 'lib/Pod/POM/View/Trac.pm',
   'PREREQ_PM' => {
+                   'Pod::POM' => '0',
                    'Test::More' => 0
                  },
   'INSTALLDIRS' => 'site',

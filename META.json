@@ -26,6 +26,7 @@
       },
       "runtime" : {
          "requires" : {
+            "Pod::POM" : "0",
             "perl" : "5.006"
          }
       }
@@ -33,7 +34,7 @@
    "provides" : {
       "Pod::POM::View::Trac" : {
          "file" : "lib/Pod/POM/View/Trac.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -42,5 +43,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
